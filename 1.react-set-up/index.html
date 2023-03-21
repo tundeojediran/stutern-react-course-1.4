@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      .red {
+        background-color: red;
+      }
+    </style>
+    <title>Simple React App</title>
+  </head>
+
+  <body>
+    <div id="root">not rendered</div>
+    <script src="https://unpkg.com/react@18.2.0/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18.2.0/umd/react-dom.development.js"></script>
+    <script>
+      // Your code is going to go here
+      // an arrow function
+      // a function-based component
+      const App = () => {
+        return React.createElement(
+          "div", // element
+          {}, // props
+          React.createElement(
+            "div",
+            {className: 'red'},
+            React.createElement("h1", null, "Hello Stutern")
+          ) // child
+        );
+      };
+
+      console.log(React.createElement("h1", null, "Hello World"));
+
+      const container = document.getElementById("root");
+      const root = ReactDOM.createRoot(container);
+      root.render(React.createElement(App));
+    </script>
+  </body>
+</html>

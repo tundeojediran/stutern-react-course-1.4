@@ -1,0 +1,1 @@
+This folder implements a simple react app without any compile step
