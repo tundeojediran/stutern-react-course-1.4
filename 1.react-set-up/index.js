@@ -1,3 +1,5 @@
+
+// function based component
 const App = () => {
     return React.createElement(
       "div", // element
