@@ -1,0 +1,11 @@
+.bio-form {
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.field {
+    margin-bottom: 8px;
+}
