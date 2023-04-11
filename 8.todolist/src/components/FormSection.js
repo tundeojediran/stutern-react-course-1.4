@@ -6,12 +6,12 @@ const FormSection = (props) => {
 
     const handleChange = (event) => {
         const taskName = event.target.value
-        console.log(taskName);
+        // console.log(taskName);
         setNewTask(taskName);
     }
 
     const handleClick = () => {
-        console.log(`The new task is ${newTask}`)
+        // console.log(`The new task is ${newTask}`)
         props.handleClick(newTask)
         setNewTask("");
     }

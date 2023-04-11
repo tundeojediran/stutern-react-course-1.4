@@ -95,8 +95,8 @@ body {
   cursor: pointer;
   outline: none;
   height: 40px;
-  width: 40px;
   border-radius: 5px;
+  padding: 4px 8px;
 }
 
 .task .edit-btn {
