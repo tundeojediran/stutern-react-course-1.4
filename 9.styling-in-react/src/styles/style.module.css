@@ -1,0 +1,44 @@
+body {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 1.5;
+    line-height: 1.5;
+    color: #292b2c;
+    background-color: #fff;
+  }
+  .testimonial {
+    margin: 0 auto;
+    padding: 0 2em;
+  }
+  .testimonial-wrapper {
+    text-align: center;
+    max-width: 950px;
+    margin: 0 auto;
+    border: 1px solid #e6e6e6;
+    padding: 40px 25px;
+    margin-top: 50px;
+  }
+  .testimonial-quote p {
+    line-height: 1.5;
+    font-weight: 300;
+    margin-bottom: 25px;
+    font-size: 1.375rem;
+  }
+  .testimonial-avatar {
+    margin: -90px auto 30px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 0;
+  }
+  .testimonial-name {
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  .testimonial-name span {
+    font-weight: 400;
+  }
+  
