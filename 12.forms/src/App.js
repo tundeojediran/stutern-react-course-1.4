@@ -2,9 +2,17 @@ import './App.css';
 import { UncontrolledFormUsingFormEvent, UncontrolledFormWithUseRef, ControlledForm, OptimisedControlledForm } from './components/Form';
 
 function App() {
+
+  const loginToApp = (form) => {
+    console.log('Sending form data...');
+    console.log(form);
+    // axios.post()
+
+  }
+
   return (
     <div className="App">
-      <h4>Uncontrolled Form with React useRef() hook</h4>
+      {/* <h4>Uncontrolled Form with React useRef() hook</h4>
       <UncontrolledFormWithUseRef />
       <hr />
       <h4>Uncontrolled Form with values from the Form event</h4>
@@ -12,9 +20,9 @@ function App() {
       <hr />
       <h4>Controlled Form</h4>
       <ControlledForm />
-      <hr />
+      <hr /> */}
       <h4>Optimised Controlled Form</h4>
-      <OptimisedControlledForm />
+      <OptimisedControlledForm submitForm={loginToApp} />
 
     </div>
   );
